@@ -14,10 +14,8 @@ thetad = input('What is the launch angle in degrees?' );
 % for m = 1:45
 % theta = thetad(m) * pi/180;
 
-x = zeros(1,2000);
-y = zeros(1,2000);
-vx = zeros(1,2000);
-vy = zeros(1,2000);
+x(1) = 0;
+y(1) = 0;
 
 theta = thetad * pi/180;
 vx(1) = v0*cos(theta);
