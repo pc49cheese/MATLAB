@@ -2,12 +2,12 @@
 % The Newton quotient:
 % (f(x+h)-f(x))/h
 % may be used to estimate the first derivative f?(x) of a function f(x), if h
-% is ìsmall.î Write a program to compute the Newton quotient for the
+% is ‚Äúsmall.‚Äù Write a program to compute the Newton quotient for the
 % function:
 % f(x)=x^2
 % at the point x = 2 (the exact answer is 4) for values of h starting at 1, and
 % decreasing by a factor of 10 each time (use a for loop). The effect of
-% rounding error becomes apparent when h gets ìtoo small,î i.e., less than
+% rounding error becomes apparent when h gets ‚Äútoo small,‚Äù i.e., less than
 % about 10?12.
 
 % x = 2;
